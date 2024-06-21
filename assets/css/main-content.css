@@ -1,0 +1,221 @@
+.main-container {
+    max-width: 100vw;
+    height: 100vh;
+    margin-left: 320px;
+}
+
+.playlist h2 {
+    color: #fff;
+    padding: 50px 0 5px 4%;
+}
+
+.offer__scroll-container {
+    max-height: 65vh;
+    margin: 0 24px;
+    overflow-y: auto;
+}
+
+.offer__scroll-container::-webkit-scrollbar {
+    width: 0;
+}
+
+.offer__list-item {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    gap: 20px;
+    margin-bottom: 16px;
+    margin: 0 2%;
+}
+
+.cards {
+    position: relative;
+    width: 200px;
+    height: 230px;
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 10px 0;
+    transition: .3s;
+}
+
+.hidden {
+    display: none;
+}
+
+.cards:hover {
+    transform: scale(1.05);
+}
+
+.cards img {
+    position: absolute;
+    top: 65%;
+    left: 60%;
+    transform: rotate(30deg);
+    width: 100px;
+    height: 100px;
+}
+
+.cards span {
+    padding: 16px;
+    position: absolute;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.cards.card1 {
+    background-color: rgb(39, 89, 73);
+}
+
+.cards.card2 {
+    background-color: rgb(27, 45, 125);
+}
+
+.cards.card3 {
+    background-color: rgb(252, 47, 61);
+}
+
+.cards.card4 {
+    background-color: rgb(25, 157, 115);
+}
+
+.cards.card5 {
+    background-color: rgb(50, 88, 255);
+}
+
+.cards.card6 {
+    background-color: rgb(224, 200, 79);
+}
+
+.cards.card7 {
+    background-color: rgb(255, 39, 107);
+}
+
+.cards.card8 {
+    background-color: rgb(252, 109, 0);
+}
+
+.cards.card9 {
+    background-color: rgb(13, 135, 0);
+}
+
+.cards.card10 {
+    background-color: rgb(102, 0, 77);
+}
+
+.cards.card11 {
+    background-color: rgb(226, 0, 0);
+}
+
+.cards.card11 {
+    background-color: rgb(226, 0, 0);
+}
+
+.cards.card12 {
+    background-color: rgb(0, 154, 226);
+}
+
+.cards.card13 {
+    background-color: rgb(226, 173, 0);
+}
+
+.cards.card14 {
+    background-color: rgb(133, 120, 76);
+}
+
+.cards.card15 {
+    background-color: rgb(255, 140, 0);
+}
+
+.cards.card16 {
+    background-color: rgb(175, 143, 143);
+}
+
+.cards.card17 {
+    background-color: rgb(122, 0, 167);
+}
+
+.cards.card18 {
+    background-color: rgb(69, 36, 255);
+}
+
+.cards.card19 {
+    background-color: rgb(255, 119, 0);
+}
+
+.cards.card20 {
+    background-color: rgb(27, 0, 33);
+}
+
+.card-img {
+    position: relative;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.artist-img {
+    border-radius: 50%;
+    width: 250px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-height: 62px;
+}
+
+.card-text a {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.artist-name {
+    font-size: 16px;
+    font-weight: 700;
+    padding-block-end: 8px;
+}
+
+.artist-categorie {
+    color: #6a6a6a;
+    font-size: 1rem;
+}
+
+.play {
+    position: relative;
+}
+
+.play .bi-play-fill {
+    position: absolute;
+    left: 190px;
+    bottom: 0;
+    padding: 8px;
+    background-color: #1db954;
+    border-radius: 100%;
+    font-size: 40px;
+    opacity: 0;
+    transition: all ease 0.4s;
+    cursor: pointer;
+}
+
+.artist-card:hover .play .bi-play-fill {
+    opacity: 1;
+    transform: translateY(-20px);
+}
+
+.play .fa-play:hover {
+    padding: 20px;
+    cursor: pointer;
+}
+
+#result-artist {
+    padding: 20px 40px;
+}
+
+.sectionBar {
+    display: none;
+}

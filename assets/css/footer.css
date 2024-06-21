@@ -1,0 +1,31 @@
+.disclaimer-premium {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to right, #9300b8, #5388e5);
+    height: 80px;
+    padding: 0 25px;
+}
+
+.disclaimer-premium .text {
+    color: #fff;
+}
+
+.disclaimer-premium .text .disclaimer-premium__title {
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.disclaimer-premium .button button {
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+}
