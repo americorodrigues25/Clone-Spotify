@@ -21,7 +21,7 @@ Este projeto foi uma excelente oportunidade para aprofundar meu conhecimento em 
 ![captura-da-tela-clone-spotify](https://github.com/americorodrigues25/Clone-Spotify/assets/152452192/e5ae166d-73dd-414e-97f7-fc89b3a4ce8f)
 
 ### Acesse aqui e confira:
-✅ Link para visualizar o projeto: [Inserir link aqui]
+✅ Link para visualizar o projeto: (https://clone-spotify-lime.vercel.app/)
 
 #### Contatos: 📲
 <div>
